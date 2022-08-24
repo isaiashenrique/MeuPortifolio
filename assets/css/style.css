@@ -87,7 +87,7 @@
 
 .texto  {
     position: absolute;
-    top: 200px;
+    top: 25vh;
     font-weight: bold;
     text-transform: uppercase;
     word-wrap: break-word;
@@ -131,17 +131,20 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: #ff0000;
+    background-color: #000;
     color: #fff;
-    width: 20rem;
-    height: 3rem;
+    width: 35vh;
+    height: 6vh;
     top: 550px;
     border-radius: 30px;
     border: none;
+    text-decoration: none;
     cursor: pointer;
-    opacity: 80%;
+    opacity: 75%;
     font-size: 25px;
     letter-spacing: 3px;
+    font-family: sans-serif;
+    font-weight: bold;
     
 }
 
