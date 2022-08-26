@@ -91,7 +91,7 @@
     font-weight: bold;
     text-transform: uppercase;
     word-wrap: break-word;
-    
+    width: 61.5rem;
 }
 
 .texto h4 {
@@ -103,6 +103,37 @@
     font-size: 80px;
     font-family: 'Ultra', serif;
     letter-spacing: 6px;
+    border-right: 5px solid  #000;
+    margin: 0 ;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.texto-h1 {
+    animation: cursor 500ms steps(28) infinite normal,
+    texto-h1 3s steps(28) 1s normal both;
+}
+
+@keyframes texto-h1 {
+    from{
+        width: 0;
+    }
+
+    to {
+        width: 12.3em;
+    }
+}
+
+@keyframes cursor {
+    from {
+        border-right-color: #000;
+    }
+
+    to {
+        border-right: transparent;
+    }
 }
 
 .texto h1 span {
