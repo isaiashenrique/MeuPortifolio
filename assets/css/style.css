@@ -59,7 +59,17 @@
     border-bottom: 3px solid #ff0000;
     
 }
-
+ 
+.btn-curriculo {
+    background-color: #ff0000;
+    text-align: center;
+    padding: 8px;
+    width: 130px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    font-family: sans-serif, serif;
+}
 
 
 
@@ -109,6 +119,8 @@
     overflow: hidden;
     text-align: center;
 }
+
+/* MAQUINA DE ESCREVER CURSOR*/
 
 
 .texto-h1 {
