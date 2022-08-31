@@ -53,27 +53,31 @@
 }
 
 #fixed {
-    border-bottom: 3px solid #ff0000;
+    border-bottom: 4px solid #515151;
     
 }
 
 .lista-menu a:hover{
-    border-bottom: 3px solid #ff0000;
+    border-bottom: 4px solid #515151;
     
 }
  
 .btn-curriculo {
-    background-color: #ff0000;
+    background-color: #fff;
     text-align: center;
     padding: 8px 30px;
-    color: #fff;
+    color: #000;
     text-decoration: none;
     border-radius: 20px;
     font-family: sans-serif, serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    box-shadow: 0px 0px 8px #f8f8ff;
 
 }
 
 .btn-curriculo:hover {
+    opacity: 85%;
     transform: scale(1.1);
     transition: 0.5s;
 }
@@ -156,7 +160,8 @@
 }
 
 .texto h1 span {
-    color: #ff0000;
+    color: #515151;
+    
     
 }
 
@@ -167,7 +172,7 @@
 }
 
 .texto h3 span {
-    color: #ff0000;
+    color: #515151;
     border-bottom: 3px solid #000;
     
 }
@@ -218,7 +223,7 @@
     text-align: center;
     height: calc(100vh + 10px);
     justify-content: space-between;
-    background-image: linear-gradient(100deg, #f8f8ff , #000  ) ;
+    background-image: linear-gradient(50deg, #f8f8ff , #000 170%  ) ;
     
 }
 
@@ -236,7 +241,7 @@
 #pjt-h1 {
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 25px;
     font-weight: bold;
     font-size: 80px;
     letter-spacing: 2px;
@@ -252,6 +257,8 @@
 .imagem img{
    display: flex;
    flex: 1;
+   width: 100%;
+   height: 200px;
    border-radius: 20px 20px 0px 0px;
 }
 
@@ -262,7 +269,7 @@
 
 
 .projetos-evolucao1 {
-    width: 250px;
+    width: 310px;
     height: 300px;
     display: flex;
     margin: 20px 30px;
@@ -279,7 +286,7 @@
 }
 
 .projetos-evolucao2 {
-    width: 250px;
+    width: 310px;
     height: 300px;
     display: flex;
     margin: 20px 30px;
@@ -290,7 +297,7 @@
     border-radius: 20px;
     cursor: pointer;
 }
-}
+
 
 .projetos-evolucao2:hover {
     transform: scale(1.1);
@@ -298,7 +305,7 @@
 }
 
 .projetos-evolucao3 {
-    width: 250px;
+    width: 310px;
     height: 300px;
     display: flex;
     margin: 20px 30px;
@@ -309,7 +316,7 @@
     border-radius: 20px;
     cursor: pointer;
 }
-}
+
 
 .projetos-evolucao3:hover {
     transform: scale(1.1);
@@ -317,7 +324,7 @@
 }
 
 .projetos-evolucao4 {
-    width: 250px;
+    width: 310px;
     height: 300px;
     display: flex;
     margin: 20px 30px;
@@ -327,7 +334,6 @@
     box-shadow:0px 3px 15px #000;
     border-radius: 20px;
     cursor: pointer;
-}
 }
 
 .projetos-evolucao4:hover {
@@ -336,7 +342,7 @@
 }
 
 .projetos-evolucao5 {
-    width: 250px;
+    width: 310px;
     height: 300px;
     display: flex;
     margin: 20px 30px;
@@ -347,7 +353,7 @@
     border-radius: 20px;
     cursor: pointer;
 }
-}
+
 
 .projetos-evolucao5:hover {
     transform: scale(1.1);
@@ -355,7 +361,7 @@
 }
 
 .projetos-evolucao6 {
-    width: 250px;
+    width: 310px;
     height: 300px;
     display: flex;
     margin: 20px 30px;
@@ -366,7 +372,7 @@
     border-radius: 20px;
     cursor: pointer;
 }
-}
+
 
 .projetos-evolucao6:hover {
     transform: scale(1.1);
@@ -440,7 +446,7 @@
 
 
 #sobremim {
-    background-image: linear-gradient(-270deg,#f8f8ff 50%,#000 50%);
+    background-image: linear-gradient(-50deg, #f8f8ff , #000 170%  ) ;
 }
 .sobremim-info {
     width: 100vw;
@@ -458,9 +464,7 @@
     margin-bottom: 90px;
 }
 
-#titulo-span{
-    color: #fff;
-}
+
 .imagem-sobremim {
     display: flex;
     flex: 1;
@@ -472,7 +476,7 @@
     flex: 1;
     flex-direction: column;
     justify-content: center;
-    color: #fff;
+    color: #000;
     text-align: center;
     font-size: 30px;
     font-family: sans-serif, serif;
