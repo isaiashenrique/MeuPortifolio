@@ -471,6 +471,7 @@
     color: #000;
     justify-content: center;
     align-items: center;
+    font-family: serif;
 }
 
 .imagem-sobremim1 {
@@ -523,7 +524,43 @@
     color: #fff;
     font-weight: bold;
     letter-spacing: 2px;
+   
 }
+
+.imagem-sobremim1{
+    position: absolute;
+    animation-name: html;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.imagem-sobremim1:hover{
+    transform: scale(1.3);
+    transition: 0.8s;
+}
+.imagem-sobremim2{
+    position: absolute;
+    animation-name: css;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.imagem-sobremim2:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+.imagem-sobremim3{
+    position: absolute;
+    animation-name: js;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.imagem-sobremim3:hover{
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
 
 
 
@@ -535,8 +572,77 @@
     color: #000;
     text-align: center;
     font-size: 40px;
+    font-weight: bold;
     font-family: sans-serif;
+    
 }
+
+
+
+@keyframes html {
+    0% {
+       
+        left: 550px;
+    }
+    100% {
+        transform: scale(1.4);
+        transition: 0.1ms;
+        left: 50px;
+    }
+}
+
+@keyframes css {
+    0% {
+     
+        left: 50px;
+    }
+    100% {
+        transform: scale(1.4);
+        transition: 0.5ms;
+        left: 550px;
+    }
+}
+
+.html {
+    
+    left: 0;
+    animation: html 3s infinite linear alternate-reverse ;
+}
+
+.js {
+    
+    left: 300px;
+}
+
+.css {
+   
+    left: 300px;
+    animation: css 3s infinite linear alternate-reverse;
+}
+
+
+
+/*                              habilidades                                    */
+
+
+.habilidades {
+    height: 100vh;
+    background-image: linear-gradient(50deg, #f8f8ff , #000 170%  ) ;
+}
+
+
+.habilidades-info {
+    
+}
+
+
+
+
+
+
+
+
+
 
 
 
