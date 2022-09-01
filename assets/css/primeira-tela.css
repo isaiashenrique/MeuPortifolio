@@ -1,0 +1,124 @@
+/* conteudo do portifólio */
+
+
+
+
+.imagem-fundo {
+    background-image: url('../img/imagen-fundo.jpg');
+    background-size:cover;
+    background-position: center;
+    height: calc(100vh - 50px);
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+/* texto em cima da imagem */
+
+
+.texto  {
+    position: absolute;
+    top: 25vh;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    width: 61.5rem;
+}
+
+.texto h4 {
+    font-size: 55px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.texto h1 {
+    font-size: 80px;
+    font-family: 'Ultra', serif;
+    letter-spacing: 6px;
+    border-right: 5px solid  #000;
+    margin: 0 ;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* MAQUINA DE ESCREVER CURSOR*/
+
+
+.texto-h1 {
+    animation: cursor 500ms steps(28) infinite normal,
+    texto-h1 3s steps(28) 1s normal both;
+}
+
+@keyframes texto-h1 {
+    from{
+        width: 0;
+    }
+
+    to {
+        width: 12.3em;
+    }
+}
+
+@keyframes cursor {
+    from {
+        border-right-color: #000;
+    }
+
+    to {
+        border-right: transparent;
+    }
+}
+
+.texto h1 span {
+    color: #515151;
+    
+    
+}
+
+.texto h3 {
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+}
+
+.texto h3 span {
+    color: #515151;
+    border-bottom: 3px solid #000;
+    
+}
+
+
+/* botao de cima da imagem */
+
+
+.imagem-fundo a{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    width: 35vh;
+    height: 6vh;
+    top: 550px;
+    border-radius: 30px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 75%;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+
+.imagem-fundo a:hover {
+    letter-spacing: 6px;
+    transition: 0.6s;
+    transform: scale(1.1);
+}
+

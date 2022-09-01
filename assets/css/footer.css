@@ -1,0 +1,53 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.s-m  {
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+.s-m a i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    margin-right: 10px;
+    border-radius: 30%;
+        
+}
+

@@ -1,0 +1,117 @@
+
+/*                              habilidades                                    */
+
+
+.habilidades {
+    height: 100vh;
+    background-image: linear-gradient(50deg, #f8f8ff , #000 170%  ) ;
+}
+
+.ajustador-habilidades {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.titulo-habilidades {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    padding: 45px;
+}
+
+
+.habilidades-imagem {
+    display: flex;
+    flex: 1;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+.habilidades-descricao {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.habilidades-html5 {
+    padding: 30px;
+    border-radius: 30px;
+    background-color: rgb(31, 29, 29);
+    cursor: pointer;
+   
+}
+.habilidades-html5:hover {
+    transform: rotate(360deg);
+    transition: 0.8s;
+}
+
+.habilidades-css3 {
+    padding: 30px;
+    border-radius: 30px;
+    background-color: rgb(31, 29, 29);
+    cursor: pointer;
+}
+
+.habilidades-css3:hover {
+    transform: rotate(360deg);
+    transition: 0.8s;
+}
+
+.habilidades-js {
+    padding: 30px;
+    border-radius: 30px;
+    background-color: rgb(31, 29, 29);
+    cursor: pointer;
+}
+
+.habilidades-js:hover {
+    transform: rotate(360deg);
+    transition: 0.8s;
+}
+
+
+.habilidades-git {
+    padding: 30px;
+    border-radius: 30px;
+    background-color: rgb(31, 29, 29);
+    cursor: pointer;
+}
+
+.habilidades-git:hover {
+    transform: rotate(360deg);
+    transition: 0.8s;
+}
+
+
+.habilidades-github {
+    padding: 30px;
+    border-radius: 30px;
+    background-color: rgb(31, 29, 29);
+    cursor: pointer;
+}
+
+.habilidades-github:hover {
+    transform: rotate(360deg);
+    transition: 0.8s;
+}
+
+.habilidades-reactjs {
+    padding: 35px;
+    border-radius: 30px;
+    background-color: rgb(31, 29, 29);
+    cursor: pointer;
+}
+
+.habilidades-reactjs:hover {
+    transform: rotate(360deg);
+    transition: 0.8s;
+}
