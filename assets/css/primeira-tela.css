@@ -93,8 +93,9 @@
 /* botao de cima da imagem */
 
 
-.imagem-fundo a{
+.btn-linkedin a{
     position: absolute;
+    left: 730px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -113,6 +114,7 @@
     letter-spacing: 3px;
     font-family: sans-serif;
     font-weight: bold;
+    
     
 }
 

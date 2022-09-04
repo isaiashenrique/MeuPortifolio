@@ -1,53 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
 
 
+#btntop {
+    display: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.s-m  {
-    display: flex;
-    justify-content: flex-end;
-    
+.topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
 
 }
-.s-m a i {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
-    width: 20px;
-    height: 20px;
-    padding: 5px;
-    margin-right: 10px;
-    border-radius: 30%;
-        
+.img-topo {
+    width: 60px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

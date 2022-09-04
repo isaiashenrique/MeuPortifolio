@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="inicio">
         <div class="container">
             <div class="centralizador">
                 <div class="logo">
@@ -28,10 +28,10 @@
                 <nav class="lista-menu">
                     <ul>
                         <li>
-                            <a href="" id="fixed">Início</a>
+                            <a href="#inicio" id="fixed">Início</a>
                             <a href="#projetos">Projetos</a>
                             <a href="#sobremim">Sobre mim</a>
-                            <a href="">Habilidades</a>
+                            <a href="#habilidades">Habilidades</a>
 
                         </li>
 
@@ -40,8 +40,7 @@
                     </ul>
 
                 </nav>
-                <a class="btn-curriculo" href="assets/curriculo/Curriculo-Isaias-Henrique.pdf"
-                    target="_blank">Currículo</a>
+               
             </div>
 
         </div>
@@ -61,7 +60,9 @@
                     <h1 class="texto-h1">Isaias <span> henrique</span>.</h1>
                     <h3>Desenvolvedor <span>Front-end</span></h3>
                 </div>
-                <a href="https://www.linkedin.com/in/isaias-henrique-9336741a2/" target="_blank">Linkedin</a>
+                <div class="btn-linkedin">
+                    <a href="https://www.linkedin.com/in/isaias-henrique-9336741a2/" target="_blank">Linkedin</a>
+                </div>
             </div>
 
         </section>
@@ -232,33 +233,36 @@
 
          <!-- Minhas habilidades como front end -->
 
-        <section class="habilidades">
+        <section id="habilidades">
             <div class="titulo-habilidades"><h1>Habilidades</h1></div>
             
             <div class="centralizador">
                 <div class="ajustador-habilidades">
                     <div class="habilidades-imagem">
-                        <div class="habilidades-html5">
+                        <div class="habilidades-html5 skill-box">
                             <img src="assets/img/html2.svg" alt="imagem icone html5">
                         </div>
-                        <div class="habilidades-css3">
+                        <div class="habilidades-css3 skill-box">
                             <img src="assets/img/css2.svg" alt="imagem icone css3">
                         </div>
-                        <div class="habilidades-js">
+                        <div class="habilidades-js skill-box">
                             <img src="assets/img/js2.svg" alt="imagem icone js">
                         </div>
-                        <div class="habilidades-git">
+                        <div class="habilidades-git skill-box">
                             <img src="assets/img/git2.svg" alt="imagem git">
                         </div>
-                        <div class="habilidades-github">
+                        <div class="habilidades-github skill-box">
                             <img src="assets/img/github2.svg" alt="imagem icone github">
                         </div>
-                        <div class="habilidades-reactjs">
+                        <div class="habilidades-reactjs skill-box">
                             <img src="assets/img/react2.svg" alt="imagem icone react.js">
                         </div>
                     </div>
                     <div class="habilidades-descricao">
-                        dasd
+                         <p class="texto-descricao">
+                            * Passe o mouse por cima de alguma habilidade para ler a
+                            descrição. *
+                          </p>
                     </div>
                 </div>
             </div>
@@ -273,14 +277,27 @@
 
 
 
-        <!--
-   <footer>
-    <div class="s-m">
-        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-        <a href=""><i class="fa-brands fa-github"></i></a>
-    </div>
+        
+   <footer class="footer">
+        <div class="centralizador">
+            <div class="footer-info">
+                sda
+            </div>
+
+            <div class="footer-icones">
+                dsa
+            </div>
+
+            <div id="btntop">
+                <a href="#inicio">
+                    <div class="topo">
+                        <img class="img-topo" src="assets/img/up-arrow.png" alt="voltar ao topo">
+                    </div>
+                </a>
+            </div>
+        </div>
    </footer>
-   -->
+   
 
 
 
@@ -304,6 +321,9 @@
 
 
     <script src="assets/js/vermais.js"></script>
+    <script src="assets/js/botao-topo.js"></script>
+    <script src="assets/js/habilidades.js"></script>
+    
 </body>
 
 </html>
