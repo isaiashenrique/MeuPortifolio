@@ -28,6 +28,7 @@
     text-decoration: none;
     font-family: 'Ultra', serif;
     letter-spacing: 3px;
+    word-wrap: break-word;
 }
 
 .lista-menu ul{
@@ -61,3 +62,9 @@
     
 }
  
+
+@media (max-width:1200px){
+   
+
+
+}
